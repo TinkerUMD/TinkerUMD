@@ -15,7 +15,7 @@ TinkerUMD Styling Guide
   ```
 * Constant variables have mixed case prefixed by a lowercase k
   ```cpp
-    int kAnalogThreshold
+    const int kAnalogThreshold = 200;
   ```
 * Each indent should be 2 spaces (not a tab).
 * Header files should contain a define statement PROJECT_PATH_FILE_NAME_H_
