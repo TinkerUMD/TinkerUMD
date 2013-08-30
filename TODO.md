@@ -1,24 +1,20 @@
 TODO
 ===
 
-Example Sketches
----
+####Example Sketches
 * Analog Read
 * Digital Out
 * Digital In
 
-Object Oriented
----
+####Object Oriented
 * Hovercraft object that prints to serial
 
-Demo
----
+####Demo
 * D/A
 * V control
 * Voltage divider
 
-Sensors
----
+####Sensors
 * IR Distance
 * Sonar Distance
 * Photo Resistor
@@ -27,12 +23,10 @@ Sensors
 * IR (36kHz) decoder
 * RF decoder
 
-Actuation
----
+####Actuation
 * servo
 * fan (pwm) control
 
-Course
----
+####Course
 * Beacon IR (36kHz) encoder
 * RF
