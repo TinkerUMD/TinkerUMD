@@ -5,6 +5,6 @@ TinkerUMD Styling Guide
 * Class names should be upper camelcase.
 ```
 class AnalogReader{
-  /* ... */
+  //some code
 };
 ```
