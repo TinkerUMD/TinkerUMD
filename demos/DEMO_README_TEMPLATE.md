@@ -1,5 +1,8 @@
 Demo README Template
 ==================
+![readme icon](https://github.com/TinkerUMD/TinkerUMD/icons/readmeicon.jpg)
+![arduino icon](https://github.com/TinkerUMD/TinkerUMD/icons/arduinocodeicon.jpg)
+
 ###Semester
 Fall 2013
 
