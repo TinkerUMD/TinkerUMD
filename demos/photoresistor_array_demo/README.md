@@ -9,8 +9,8 @@ experimentally determined "threshold" values.  If any reading is below this thre
 is above a black line.
 
 ###Hardware
-* 6 0.5kOhm to 2kOhm photoresistors
-* 6 2kOhm 
+* 6 2kOhm photoresistors
+* 6 2kOhm resistors
 * 3 LEDs
 * 3 110Ohm resistors
 
