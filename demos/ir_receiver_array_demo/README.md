@@ -4,7 +4,7 @@ IR Receiver Array Demo
 Fall 2013
 
 ###Model
-This demonstrates an array of IR 56kHz receivers that detect an 56kHz IR source.  The detection is visualized
+This demonstrates an array of 56kHz IR receivers that detect an 56kHz IR source.  The detection is visualized
 through a passive LED display and through serial output.
 
 ###Hardware
