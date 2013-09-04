@@ -17,7 +17,7 @@ is above a black line.
 ###Pins
 A0,A1,A2,A3,A4,A5,A6 for reading photoresistors
 
-Purpose
+###Purpose
 This circuit could be used in application for line following.  This demo is particulary educational,
 demonstrating concepts of voltage dividers with variable resistors.  
 
