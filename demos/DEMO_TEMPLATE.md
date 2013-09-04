@@ -1,20 +1,20 @@
-Demo Name
+Demo README Template
 ==================
-Semester
----
+###Semester
+Fall 2013
 
-Model
----
+###Model
+description of what this demo is
 
-Hardware
----
-*
+###Hardware
+* list of hardware components
+* 
 
-Pins
----
+###Pins
+list of pins used and their purpose
 
-Purpose
----
+###Purpose
+significance of this demo
 
-References
----
+###References
+* list of resources
