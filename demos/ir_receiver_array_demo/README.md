@@ -13,7 +13,7 @@ through a passive LED display and through serial output.
 * 7 1kOhm resistors
 
 ###Pins
-list of pins used and their purpose
+digital pins 2,3,4,5,6,7,8 are used as inputs for reading the IR receiver signals.
 
 ###Purpose
 This demonstrates a circuit that could be used to detect the beacon for navigation in the course.
