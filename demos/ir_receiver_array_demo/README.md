@@ -14,7 +14,7 @@ is also visualized through a passive LED display on the sensor array board itsel
 
 ### Purpose
 This demonstrates a circuit that could be used to detect the beacon for navigation in the course.
-It also demonstrates the concept of digital reading multiple sensors.
+It also demonstrates the concept of chaining multiple sensors.
 
 ### Hardware
 <table>
