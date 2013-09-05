@@ -37,9 +37,10 @@ It also demonstrates the concept of digital reading multiple sensors.
   </tr>
 </table>
 
-###Pins
+### Pins
 Digital pins 2, 3, 4, 5, 6, 7, 8 are used as inputs for reading the IR receiver signals.
 
+### Schematic
 
 ###References
 
