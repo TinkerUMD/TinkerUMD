@@ -1,5 +1,8 @@
 Demo README Template
 ==================
+<img src="https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/readmeicon.jpg" alt="readme icon" style="width: 50px;"/>
+
+
 ###Semester
 Fall 2013
 
