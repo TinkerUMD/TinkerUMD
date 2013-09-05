@@ -5,6 +5,11 @@
 <br>
 IR Receiver Array Demo 
 </h1>
+This demo features an array of seven 56kHz IR receivers oriented in a semi-circle.  The IR sensor array is
+connected to an arduino microcontroller and the output is displayed through serial messages.  The behavior
+is also visualized through a passive LED display on the sensor array board itself.
+
+### Purpose
 This demonstrates a circuit that could be used to detect the beacon for navigation in the course.
 It also demonstrates the concept of digital reading multiple sensors.
 
