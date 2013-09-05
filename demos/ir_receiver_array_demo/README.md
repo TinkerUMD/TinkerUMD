@@ -48,4 +48,4 @@ Digital pins 2, 3, 4, 5, 6, 7, 8 are used as inputs for reading the IR receiver 
 ### Schematic
 
 ###References
-
+* [56kHz IR receiver datasheet](www.pololu.com/file/0J19/TSOP34156.pdf)
