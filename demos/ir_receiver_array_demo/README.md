@@ -1,5 +1,9 @@
 IR Receiver Array Demo
 ==================
+![readme icon](https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/readme_icon_64x64.jpg)
+![readme icon](https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/arduino_icon_64x64.jpg)
+![readme icon](https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/led_icon_64x64.jpg)
+
 ###Semester
 Fall 2013
 
