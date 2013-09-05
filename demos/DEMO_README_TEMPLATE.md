@@ -1,7 +1,9 @@
 Demo README Template
 ==================
-<img src="https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/readmeicon.jpg" alt="readme icon" style="width: 50px;"/>
-
+![readme icon](https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/readme_icon_64x64.jpg)
+![readme icon](https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/arduino_icon_64x64.jpg)
+![readme icon](https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/led_icon_64x64.jpg)
+![readme icon](https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/schematic_icon_64x64.jpg)
 
 ###Semester
 Fall 2013
