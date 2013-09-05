@@ -9,6 +9,9 @@ This demo features an array of seven 56kHz IR receivers oriented in a semi-circl
 connected to an arduino microcontroller and the output is displayed through serial messages.  The behavior
 is also visualized through a passive LED display on the sensor array board itself.
 
+#### Prerequisites
+* [ir_receiver_demo](https://github.com/TinkerUMD/TinkerUMD/tree/master/demos/ir_receiver_demo)
+
 ### Purpose
 This demonstrates a circuit that could be used to detect the beacon for navigation in the course.
 It also demonstrates the concept of digital reading multiple sensors.
