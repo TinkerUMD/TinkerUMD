@@ -5,13 +5,11 @@
 <br>
 IR Receiver Demo 
 </h1>
-#### Prerequisites
+This demo features a single 56kHz IR receiver with it's output signal connected to the Arduino microcontroller.
+The output is displayed by the Arduino through serial messages.
 
 #### Used in
 * [ir_receiver_array_demo](https://github.com/TinkerUMD/TinkerUMD/tree/master/demos/ir_receiver_array_demo)
-
-This demo features a single 56kHz IR receiver with it's output signal connected to the Arduino microcontroller.
-The output is displayed by the Arduino through serial messages.
 
 ### Purpose
 This showcases a single sensor that could be used to detect a 56kHz IR signal.  It demonstrates the concept
