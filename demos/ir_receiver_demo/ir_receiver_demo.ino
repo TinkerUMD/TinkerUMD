@@ -18,8 +18,11 @@ void loop(){
   int ir_receiver_reading = digitalRead(IR_RECEIVER_PIN);
   
   //display the reading
-  Serial.println(ir_receiver_reading);
-  
+  if (ir_receiver_reading==LOW) //active low
+    Serial.println("1");
+  else
+    Serial.println("0");
+   
   //wait 30 miliseconds
   delay(30);
 }
