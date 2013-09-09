@@ -34,5 +34,7 @@ This circuit consists of a potentiometer and resistor in series that act as a va
 ## Combined Circuit
 
 ### Schematic
-![mos
+![pot_voltage_divider_mosfet_led_schem](pot_voltage_divider_mosfet_led_combined_schem.jpg)
+
 ### Breadboard
+![pot_voltage_divider_mosfet_led_bb](pot_voltage_divider_mosfet_led_combined_bb.jpg)
