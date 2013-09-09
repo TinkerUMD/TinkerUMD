@@ -14,3 +14,25 @@ LEDs, MOSFETs, resistors, and potentiometers.  It also demonstrates circuit conc
 it demonstrates fundamental concept of abstraction in circuit design (making small parts of a circuit, testing to
 make sure they work, and then combining them as part of a larger circuit).
 
+## MOSFET LED Circuit
+This circuit consists of an LED that turns on when the MOSFET is active.  
+
+### Schematic
+![mosfet led schematic](./mosfet_led_schem.jpg)
+### Breadboard example
+![mosfet led bb](./mosfet_led_bb.jpg)
+
+## Potentiometer Voltage Divider
+This circuit consists of a potentiometer and resistor in series that act as a variable voltage divider.
+
+### Schematic
+![pot_voltage_divider_schem](./pot_voltage_divider_schem.jpg)
+
+### Breadboard example
+![pot_voltage_divider_bb](./pot_voltage_divider_bb.jpg)
+
+## Combined Circuit
+
+### Schematic
+![mos
+### Breadboard
