@@ -2,9 +2,10 @@
 
 // constant declerations
 Servo servo1;
-const int servoPin = 9;
+const int servoPin = 11;
 const int switchPin1=2;
 const int switchPin2 = 4;
+const int ledPin = 3;
 
 int servoPos =0;
 
@@ -12,6 +13,9 @@ void setup(){
  servo1.attach(servoPin);
  pinMode(  switchPin1,INPUT );
  pinMode(  switchPin2,INPUT );  
+ pinMode( ledPin, OUTPUT);
+ Serial.begin(9600);
+ 
 }
 
 void loop(){
@@ -21,37 +25,45 @@ void loop(){
   else if(digitalRead(switchPin2) == HIGH){
    rotateRight(); 
   }
+  Serial.println(digitalRead(switchPin1));
+  //Serial.println(digitalRead(switchPin2));
   
   
 }
 
 void rotateLeft(){
-  for(; servoPos > 0; servoPos--){
-   servo1.write(servoPos);
-   delay(20);
+  for(; servoPos < 180; servoPos++){
+   servo1.write(servoPos);     
+   int out = map( servoPos,0,180,0,255);
+   analogWrite(ledPin,out);
+   delay(20); 
+   
    if(digitalRead(switchPin1) == HIGH){
-    return; 
+    break;
    }
    
    else if(digitalRead(switchPin2) == HIGH){
      rotateRight();
-     return;     
+     break;   
    }
   }
-  
 }
+  
+
 
 
 void rotateRight(){
- for(; servoPos < 180; servoPos++){
+ for(; servoPos >= 0; servoPos--){
    servo1.write(servoPos);
+   int out = map( servoPos,0,180,0,255);
+   analogWrite(ledPin,out);
    delay(20);
    if(digitalRead(switchPin1) == HIGH){
      rotateLeft();
-     return; 
+     break;
    }
    else if(digitalRead(switchPin2) == HIGH){
-     return;   
+     break;  
    }
   }
   
