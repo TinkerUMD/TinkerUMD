@@ -14,7 +14,7 @@ Hardware
 * 1 N-type MOSFET (this demo used P45NF06)
 * 1 1 kOhm resistor
 * 1 10 kOhm resistor
-* Fan (preferable to use 9.6V or 12V)
+* Fan (preferably 9.6V or 12V)
 * External power source (battery, power supply)
 
 Pins
