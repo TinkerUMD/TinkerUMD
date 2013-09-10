@@ -19,8 +19,8 @@ Hardware
 
 Pins
 ---
-*AI0 for photoresistor input
-*D9 for fan control output
+* AI0 for photoresistor input
+* D9 for fan control output
 
 Purpose
 ---
