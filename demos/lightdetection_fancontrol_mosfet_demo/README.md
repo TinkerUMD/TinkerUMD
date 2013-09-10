@@ -24,7 +24,7 @@ D9 for fan control output
 
 Purpose
 ---
-The goal of this demo is to demonstrate 3 concepts: 1.) How to utilize MOSFETs in useful circuits to control devices (i.e. fans) that require external power. 2.) How to utilize photoresistors as sensors. 3.) How to utilize the Arduino PWM output using analogWrite().
+The goal of this demo is to apply 3 concepts: 1.) How to utilize MOSFETs in useful circuits to control devices (i.e. fans) that require external power. 2.) How to utilize photoresistors as sensors by the voltage divider rule. 3.) How to utilize the Arduino PWM output using analogWrite().
 
 References
 ---
