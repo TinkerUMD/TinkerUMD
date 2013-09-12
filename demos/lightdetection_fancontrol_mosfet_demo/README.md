@@ -19,6 +19,7 @@ Hardware
 ---
 * 1 photoresistor cell
 * 1 N-type MOSFET (this demo was tested using P45NF06)
+* 1 heat dissipator installed properly on MOSFET
 * 1 1 kOhm resistor
 * 1 10 kOhm resistor
 * 1 diode/rectifier (e.g. 1N4001)
@@ -32,7 +33,7 @@ Pins
 
 Purpose
 ---
-The goal of this demo is to apply 3 concepts: 1.) How to utilize MOSFETs in useful circuits to control devices (i.e. fans) that require external power. 2.) How to utilize photoresistors as sensors by the voltage divider rule. 3.) How to utilize the Arduino PWM output using analogWrite(). Also teaches the use of a diode in parallel with fan to keep back emf from the fan from damaging the MOSFET.
+The goal of this demo is to apply 3 concepts: 1.) How to utilize MOSFETs in useful circuits to control devices (i.e. fans) that require external power. 2.) How to utilize photoresistors as sensors by the voltage divider rule. 3.) How to utilize the Arduino PWM output using analogWrite(). Also teaches the use of a diode in parallel with fan to keep back emf from the fan from damaging the MOSFET. Further reinforces the concept of MOSFET cooling through use of thermal dissipator installed on MOSFET. 
 
 References
 ---
