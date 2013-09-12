@@ -18,7 +18,7 @@ Light Detection Fan PWM Control w/MOSFET Demo is a program for Arduino UNO.
 Hardware
 ---
 * 1 photoresistor cell
-* 1 N-type MOSFET (this demo used P45NF06)
+* 1 N-type MOSFET (this demo was tested using P45NF06)
 * 1 1 kOhm resistor
 * 1 10 kOhm resistor
 * Fan (preferably 9.6V or 12V)
