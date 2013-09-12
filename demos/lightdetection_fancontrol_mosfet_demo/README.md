@@ -6,7 +6,7 @@
 <br>
 Light Detection Fan PWM Control w/MOSFET Demo
 </h1>
-===================
+
 Semester
 ---
 Fall 2013
