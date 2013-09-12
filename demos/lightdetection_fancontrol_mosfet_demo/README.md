@@ -36,5 +36,5 @@ The goal of this demo is to apply 3 concepts: 1.) How to utilize MOSFETs in usef
 
 References
 ---
-http://arduino-for-beginners.blogspot.com/2011/04/controlling-12v-fan-speed-with-pwm.html
-http://www.electronics-tutorials.ws/transistor/tran_7.html
+* http://arduino-for-beginners.blogspot.com/2011/04/controlling-12v-fan-speed-with-pwm.html
+* http://www.electronics-tutorials.ws/transistor/tran_7.html
