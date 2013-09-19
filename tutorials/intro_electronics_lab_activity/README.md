@@ -4,7 +4,7 @@
 
 # Introduction to Electronics Lab Activity
 In this tutorial you will solder solid-core wire to the leads of a 9v battery connector.
-You will then create a circuit to control a Light Emitting Diode (LED) with an N-channel MOSFET (Field Effect Transistor).
+You will then create a circuit to control a Light Emitting Diode (LED) with an N-channel MOSFET (Metal Oxide Field Effect Transistor).
 Next, you will make a variable voltage source using a potentiometer.
 Finally, you will combine the two circuits to make a larger circuit.
 
