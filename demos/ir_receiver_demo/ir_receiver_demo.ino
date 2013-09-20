@@ -8,16 +8,16 @@ void setup(){
   //initialize serial communication
   Serial.begin(9600);
   
-  //set the IR receiver pin to input
+  //set the IR pin mode
   pinMode(IR_RECEIVER_PIN,INPUT);
 }
 
 //repeats continuously
 void loop(){
-  //digital read into the variable ir_receiver_reading
+  //Read the IR sensor
   int ir_receiver_reading = digitalRead(IR_RECEIVER_PIN);
   
-  //display the reading
+  //Display the sensor reading
   if (ir_receiver_reading==LOW) //active low
     Serial.println("1");
   else

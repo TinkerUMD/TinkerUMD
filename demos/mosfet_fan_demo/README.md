@@ -4,31 +4,33 @@
 <img src="https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/led_icon_64x64.jpg" alt="led icon">
 <img src="https://raw.github.com/TinkerUMD/TinkerUMD/master/icons/schematic_icon_64x64.jpg" alt="schematic icon">
 <br>
-RF Demo
+Transistor DEMO 1
 </h1>
 
 ###Semester
 Fall 2013
 
 ###Description
-Demo of two RF modules, a reciever module and a transmitter module. The transmitter sends an "A1" followed 500ms later by a "B1". The reciever turns on the pin 13 LED upon recieving "A1" and off when it recieves "B1".
+This demo takes analog readings from a IR distance sensor. The analog reading is
+mapped to a value between 0 and 255 and is sent to the gate of the transistor. The fan speed
+is adjusted according to the analog value received.
 
 ###Hardware
-* 2 RF7020 modules 
-* 2 Arduinos
+* 1 Arduino 
 * Breadboard
+* Sharp 2Y0A21 distance sensor
+* 1 fan motor
+* 1 mosfet transistor
+
 
 ###Pins
-(Identical on both Arduinos)
 5V
 Gnd
-Pin 0(RX) -> RF TX Pin
-Pin 1(TX) -> RF RX Pin
-Pin 2	  -> RF Enable
-Pin 3	  -> RF Set
+Pin A1(analog) -> distance sensor pin
+Pin 11(pwm)    -> transistor pin
 
 ###Purpose
-To prove the RF works
+To show how a transistor can be used to adjust the speed of a fan.
 
 ###References
-* http://www.robotshop.com/productinfo.aspx?pc=RB-Dfr-18&lang=en-US
+
