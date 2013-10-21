@@ -19,7 +19,7 @@ int THRESHOLDS[6] = { THRESH_A0,
 
 void setup(){
   Serial.begin(9600);
-  //Setup analog inputs
+  // Initialize photoresistor pins
   pinMode(A0,INPUT);
   pinMode(A1,INPUT);
   pinMode(A2,INPUT);
@@ -27,7 +27,7 @@ void setup(){
   pinMode(A4,INPUT);
   pinMode(A5,INPUT);
   
-  //set up digital outputs
+  // Initialize LED pins
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
   pinMode(4,OUTPUT);
@@ -39,10 +39,10 @@ void setup(){
 
 //loop repeats continuously
 void loop(){
-  //declare array for holding the photoresistor measurement values
+  
   int photoresistor_analog_readings[6];
   
-  //fill the array
+  // Read the photoresistor pins
   photoresistor_analog_readings[0] = analogRead(A0);
   photoresistor_analog_readings[1] = analogRead(A1);
   photoresistor_analog_readings[2] = analogRead(A2);
@@ -50,20 +50,17 @@ void loop(){
   photoresistor_analog_readings[4] = analogRead(A4);
   photoresistor_analog_readings[5] = analogRead(A5);
   
-  //Loop through the photoresistor readings
+  //Display the photoresistor readings
   for(int i=0;i<6;i++){
-    //print 1 to serial and write LED high if black line
     if(photoresistor_analog_readings[i] < THRESHOLDS[i]){
       Serial.print("1 ");
       digitalWrite(i+2,HIGH);
     }
-    //print 0 to serial and write LED low otherwise
     else {
       Serial.print("0 ");
       digitalWrite(i+2,LOW);
     }
   }
-  //Create a new line
   Serial.print("\n");
   
   //wait a 30 miliseconds

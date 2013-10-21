@@ -16,10 +16,10 @@ void setup(){
 }
 //loop repeats continuously
 void loop(){
-  //declare array for holding IR receiver digital readings
+
   boolean ir_receiver_readings[7];
   
-  //fill the array
+  // Read each sensor
   ir_receiver_readings[0] = digitalRead(2);
   ir_receiver_readings[1] = digitalRead(3);
   ir_receiver_readings[2] = digitalRead(4);
@@ -28,7 +28,7 @@ void loop(){
   ir_receiver_readings[5] = digitalRead(7);
   ir_receiver_readings[6] = digitalRead(8);
   
-  //loop through the IR readings
+  // Print the sensor readings
   for(int i=0;i<7;i++){
     //print 1 to serial if beacon is detected
     if (ir_receiver_readings[i] == 0)
@@ -36,8 +36,6 @@ void loop(){
     else
       Serial.print("0 ");
   }
-  
-  //print newline character
   Serial.print("\n"); 
   
   //Wait 30ms
